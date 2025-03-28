@@ -1,0 +1,30 @@
+requirements.txt
+This file contains all the dependencies required to run the E-Commerce API. Install them using:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Dependencies
+Flask – Lightweight web framework for building the API.
+
+Flask-SQLAlchemy – ORM for managing database interactions.
+
+Flask-Marshmallow – Integration of Marshmallow with Flask for serialization.
+
+marshmallow-sqlalchemy – Schema definitions for SQLAlchemy models.
+
+mysql-connector-python – MySQL database driver for Python.
+
+Installation
+Ensure you have Python installed, then set up a virtual environment and install dependencies:
+
+bash
+Copy
+Edit
+python -m venv venv  
+source venv/bin/activate  # Mac/Linux  
+venv\Scripts\activate  # Windows  
+
+pip install -r requirements.txt  
+Now you're ready to run the E-Commerce API! 
